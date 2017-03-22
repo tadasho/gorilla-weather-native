@@ -1,8 +1,8 @@
 # gorilla-weather-native
 
-====
-
 神戸の３日間の天気予報を見ることのできるアプリ。
+
+* * *
 
 ## Get started
 ### 1. Requirements
