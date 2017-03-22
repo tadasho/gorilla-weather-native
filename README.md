@@ -16,7 +16,7 @@
 
   $ cd gorrila-weather-native
 
-  $ npm install    or    yarn install
+  $ npm install or yarn install
 
 ### 3. Simulate for iOS
 
@@ -26,7 +26,7 @@
 
   設定画面から、他の地域も選択できるようにしたい。
 
-## memo
+## メモ
 fix：バグ修正
 
 add：新規（ファイル）機能追加

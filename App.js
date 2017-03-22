@@ -120,7 +120,6 @@ class HomeScreen extends React.Component {
 
           <View>
             {forecast.map((tenki) =>
-
               <Card key={tenki.date}>
                 <CardItem bordered>
                   <Left>
@@ -145,7 +144,6 @@ class HomeScreen extends React.Component {
                       : tenki.temperature.min.celsius}</Text>
                 </CardItem>
               </Card>
-
             )}
           </View>
         </Content>
