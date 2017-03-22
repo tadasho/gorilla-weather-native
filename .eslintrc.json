@@ -1,16 +1,16 @@
 {
     "parser": "babel-eslint",
-    "extends": [
-        "airbnb",
-        "eslint:recommended",
-        "plugin:react/recommended",
-        "plugin:react-native/all"
-    ],
     "plugins": [
         "react",
         "jsx-a11y",
         "import",
         "react-native"
+    ],
+    "extends": [
+        "airbnb",
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:react-native/all"
     ],
     "rules": {
         "react/jsx-filename-extension": [
@@ -22,10 +22,8 @@
                 ]
             }
         ],
-        "react-native/no-unused-styles": 2,
-        "react-native/split-platform-components": 2,
-        "react-native/no-inline-styles": 2,
-        "react-native/no-color-literals": 2
+        "no-undef": 1,
+        "no-unused-vars": 1
     },
     "settings": {
         "react": {
@@ -38,8 +36,6 @@
         "browser": true,
         "node": true
     },
-    "no-undef": 1,
-    "no-unused-vars": 1,
     "ecmaFeatures": {
         "jsx": true
     }
