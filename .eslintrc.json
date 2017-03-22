@@ -1,6 +1,11 @@
 {
     "parser": "babel-eslint",
-    "extends": "airbnb",
+    "extends": [
+        "airbnb",
+        "eslint:recommended",
+        "plugin:react/recommended",
+        "plugin:react-native/all"
+    ],
     "plugins": [
         "react",
         "jsx-a11y",
@@ -21,6 +26,13 @@
         "react-native/split-platform-components": 2,
         "react-native/no-inline-styles": 2,
         "react-native/no-color-literals": 2
+    },
+    "settings": {
+        "react": {
+            "createClass": "createClass", // Regex for Component Factory to use, default to "createClass"
+            "pragma": "React", // Pragma to use, default to "React"
+            "version": "15.0" // React version, default to the latest React stable release
+        }
     },
     "env": {
         "browser": true,
